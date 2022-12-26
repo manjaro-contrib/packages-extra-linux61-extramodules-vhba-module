@@ -5,12 +5,12 @@
 # Mateusz Herych <heniekk@gmail.com>
 # Charles Lindsay <charles@chaoslizard.org>
 
-_linuxprefix=linux61
-_extramodules=extramodules-6.1-MANJARO
+_linuxprefix=linux62
+_extramodules=extramodules-6.2-MANJARO
 pkgname=$_linuxprefix-vhba-module
 _pkgname=vhba-module
 pkgver=20211218
-pkgrel=2
+pkgrel=0.1
 pkgdesc="Kernel module that emulates SCSI devices"
 arch=('x86_64')
 url="http://cdemu.sourceforge.net/"
